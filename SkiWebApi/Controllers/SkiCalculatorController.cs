@@ -79,10 +79,12 @@ namespace SkiiWebApi.Controllers
         }
         public class NoLengthRecommendationResponse : IResponse
         {
-            public string NoRecommendation { get; set; }
+
+            public static string NoRecommendationMessage = "Unfortunately, we dont have a recommendation for you";
+            public String NoRecommendation { get; set; }
             public NoLengthRecommendationResponse()
             {
-                NoRecommendation = "Unfortunately, we dont have a recommendation for you";
+                NoRecommendation = NoRecommendationMessage;
             }
         }
         [HttpGet()]

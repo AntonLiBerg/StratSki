@@ -41,7 +41,7 @@ namespace SkiWeb.Tests.Controllers
             OkObjectResult res = (OkObjectResult) ctrl.GetSkiRecommendation(0, 0, SkiStyleEnum.None.ToString());
             //Assert
             Assert.AreEqual(200,res.StatusCode);
-            Assert.AreEqual("Unfortunately, we dont have a recommendation for you",((NoLengthRecommendationResponse)res.Value).NoRecommendation);
+            Assert.IsTrue(res.Value is NoLengthRecommendationResponse);
         }
         [TestMethod]
         public void GetSkiRecommendation_ExactLengthRecommendation_ExactLengthSkiRecommendationResponse()
