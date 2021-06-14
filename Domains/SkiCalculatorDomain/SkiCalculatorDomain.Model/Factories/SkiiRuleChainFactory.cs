@@ -17,15 +17,5 @@ namespace SkiCalculatorDomain.Model.Factories
                 .SetNextChain(new FreeStyleRule());
             return startRule;
         }
-        public static IRecommendedSkiRuleChain Make()
-        {
-            SmallChildRule startRule = new SmallChildRule();
-
-            startRule.SetNextChain(new ChildRule())
-                .SetNextChain(new ChildRule())
-                .SetNextChain(new ClassicStyleRule())
-                .SetNextChain(new FreeStyleRule());
-            return startRule;
-        }
     }
 }
