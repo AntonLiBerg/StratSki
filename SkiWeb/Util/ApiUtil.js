@@ -4,10 +4,9 @@
     * These are created by calling the makeAPICaller function.
     * All communication is sent using request and response models.
     * These models are defined by model schemas, implemented in the initModels function.
-    * A model schema have to be implemented according to the following rules:
+    * A model schema has to be implemented according to the following rules:
     * - All models have to implement the property [name], which value have to be identical to the model name
-    * - The name of Models representing responses and the value of the property name 
-    *   - have to be identical to their corresponding response class in the controller
+    * - The name of Models representing responses and the value of the property name have to be identical to their corresponding response class in the controller
     * If a request or response does not correspond with an existing model, an error is thrown
     * 
     * Communication with the controller is implemented through request functions.
@@ -16,15 +15,14 @@
     * - model: a model object representing the request (properties should be the same as the method parameters of the corresponding controller method)
     * - onSuccess(model): what happens on a succesfull request
     * - onFail(error): what happens on a failed request
-    * These functions can then use the predefined CRUD functions in makeApiCaller
-    * to send requests:
+    * These functions can then use the predefined CRUD functions in makeApiCaller to send requests:
     * - CREATE, READ, UPDATE, DESTROY
     * The functions are implemented in their corresponding init[ApiCallerName]Functions, which in turn is implemented inside the initAPICaller function
     *
     * Adding a new APICaller requires the following:
-    * 1. Add the APICallers name as a property ([ApiCallerName]:[ApiCallerName]) inside APICallerNames, 
+    * 1. Add the APICallers name as a property ([ApiCallerName]:[ApiCallerName]) inside the APIUtil.APICallerNames object,
     *    - should be the same name as the corresponding controller    
-    * 2. Add an init[ApiCallerName]Functions inside the initAPICaller function. This should add request functions to the APICaller
+    * 2. Add an init[ApiCallerName]Functions inside the initAPICaller function. This should add the request functions to the APICaller
     * 3. Add a switchase on the APICaller name calling the init function inside of the initAPICaller function
 */
 const APIUtil = {
@@ -71,13 +69,12 @@ const APIUtil = {
         }
 
         //ignoreNameProp: Since all models have the property "name", it is possible to ignore it.
-        //all property names are set to lower case, to fit the camelCase used in c# methods
         function makeUrlParamString(params, ignoreNameProp) {
             var paramsString = "?";
             Object.keys(params).forEach(key => {
                 if (ignoreNameProp && key == "Name")
                     return;
-                paramsString += '&' + key.toLowerCase() + '=' + params[key];
+                paramsString += '&' + key + '=' + params[key];
             });
             return paramsString;
         };

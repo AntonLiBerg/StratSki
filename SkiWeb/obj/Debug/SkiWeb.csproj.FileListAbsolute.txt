@@ -4,3 +4,4 @@ C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\SkiWeb\bin\SkiiWeb.dll.config
 C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\SkiWeb\bin\SkiiWeb.dll
 C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\SkiWeb\bin\SkiiWeb.pdb
 C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\SkiWeb\obj\Debug\SkiWeb.csproj.CoreCompileInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\SkiWeb\obj\Debug\SkiWeb.csprojAssemblyReference.cache
