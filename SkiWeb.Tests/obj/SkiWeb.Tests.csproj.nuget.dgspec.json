@@ -1,0 +1,539 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWeb.Tests\\SkiWeb.Tests.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Infrastructure\\LoggingDomain.Infrastructure.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Infrastructure\\LoggingDomain.Infrastructure.csproj",
+        "projectName": "LoggingDomain.Infrastructure",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Infrastructure\\LoggingDomain.Infrastructure.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Infrastructure\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Model\\LoggingDomain.Model.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Model\\LoggingDomain.Model.csproj"
+              },
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Utilities\\DBUtilities.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Utilities\\DBUtilities.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Model\\LoggingDomain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Model\\LoggingDomain.Model.csproj",
+        "projectName": "LoggingDomain.Model",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Model\\LoggingDomain.Model.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.ServiceLayer\\ServiceLayer\\LoggingDomain.Service\\LoggingDomain.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.ServiceLayer\\ServiceLayer\\LoggingDomain.Service\\LoggingDomain.Service.csproj",
+        "projectName": "LoggingDomain.Service",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.ServiceLayer\\ServiceLayer\\LoggingDomain.Service\\LoggingDomain.Service.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.ServiceLayer\\ServiceLayer\\LoggingDomain.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Infrastructure\\LoggingDomain.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.Infrastructure\\LoggingDomain.Infrastructure.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Model\\SkiCalculatorDomain.Model.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Model\\SkiCalculatorDomain.Model.csproj",
+        "projectName": "SkiCalculatorDomain.Model",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Model\\SkiCalculatorDomain.Model.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Model\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj",
+        "projectName": "SkiCalculatorDomain.Service",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Model\\SkiCalculatorDomain.Model.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Model\\SkiCalculatorDomain.Model.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWeb.Tests\\SkiWeb.Tests.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWeb.Tests\\SkiWeb.Tests.csproj",
+        "projectName": "SkiWeb.Tests",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWeb.Tests\\SkiWeb.Tests.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWeb.Tests\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj"
+              },
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWebApi\\SkiWebApi.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWebApi\\SkiWebApi.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "MSTest.TestAdapter": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "MSTest.TestFramework": {
+              "target": "Package",
+              "version": "[2.1.0, )"
+            },
+            "Microsoft.NET.Test.Sdk": {
+              "target": "Package",
+              "version": "[16.5.0, )"
+            },
+            "Moq": {
+              "target": "Package",
+              "version": "[4.16.1, )"
+            },
+            "coverlet.collector": {
+              "target": "Package",
+              "version": "[1.2.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWebApi\\SkiWebApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWebApi\\SkiWebApi.csproj",
+        "projectName": "SkiWebApi",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWebApi\\SkiWebApi.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\SkiWebApi\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.ServiceLayer\\ServiceLayer\\LoggingDomain.Service\\LoggingDomain.Service.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\LoggingDomain\\LoggingDomain.ServiceLayer\\ServiceLayer\\LoggingDomain.Service\\LoggingDomain.Service.csproj"
+              },
+              "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj": {
+                "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Domains\\SkiCalculatorDomain\\SkiCalculatorDomain.Service\\SkiCalculatorDomain.Service.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Utilities\\DBUtilities.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Utilities\\DBUtilities.csproj",
+        "projectName": "DBUtilities",
+        "projectPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Utilities\\DBUtilities.csproj",
+        "packagesPath": "C:\\Users\\a305511\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\a305511\\Desktop\\Projj\\StratsysSkiWeb\\Utilities\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\a305511\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "http://api.nuget.org/v3/index.json": {},
+          "http://nexus.it.volvo.net/repository/nuget-drs-ms": {},
+          "https://nexus.it.volvo.net/repository/OrderPlanningTool": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "EntityFramework": {
+              "target": "Package",
+              "version": "[6.4.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.401\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

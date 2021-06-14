@@ -1,0 +1,17 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="EntityFramework" Version="6.4.4" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Domains\LoggingDomain\LoggingDomain.ServiceLayer\ServiceLayer\LoggingDomain.Service\LoggingDomain.Service.csproj" />
+    <ProjectReference Include="..\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Service\SkiCalculatorDomain.Service.csproj" />
+  </ItemGroup>
+
+
+</Project>

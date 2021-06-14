@@ -1,0 +1,12 @@
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\bin\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.deps.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\bin\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\bin\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.AssemblyInfo.cs
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.csprojAssemblyReference.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\bin\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.runtimeconfig.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\bin\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.runtimeconfig.dev.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\SkiCalculatorDomain\SkiCalculatorDomain.Infrastructure\obj\Debug\netcoreapp3.1\SkiCalculatorDomain.Infrastructure.genruntimeconfig.cache

@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>SkiCalculator</title>
+    <script src="../../Util/ApiUtil.js"></script>
+    <script src="../../Util/Util.js"></script>
+    <script src="../../Util/GUtil.js"></script>
+    <link rel="stylesheet" href="../../Style/styles.css">
+</head>
+<body>
+    <div class="top centerText TitleText">
+        <div style="padding-top:5px;border-style:none;">Stratski Calculator</div>
+    </div>
+    <div id="container" style="display: block;overflow: auto; width: 50%; margin: 5px auto auto auto">        
+        <div class="wrapper" style="width:80%;margin-left: auto;margin-right: auto;">
+            <div class="grid-row-title centerText HeaderText">
+                To find out the appropriate ski length, please enter:
+            </div>
+            <div class="grid-row-label">
+                Age:
+            </div>
+            <div class="grid-row-input">
+                <input id="inpAge" type="number" style="width:20%;" />
+            </div>
+            <div class="grid-row-label">
+                Height:
+            </div>
+            <div class="grid-row-input">
+                <input id="inpHeight" type="number" style="width:20%;" />
+            </div>
+            <div class="grid-row-label">
+                Style:
+            </div>
+            <div class="grid-row-input">
+                <select id="inpStyle">
+                    <option value="none" selected="selected"></option>
+                </select>
+            </div>
+            <div class="grid-row-input">
+                <button id="submitBtn" onclick="queryRecommendedSkis()">Ask</button>
+            </div>
+            <div id="resultText" class="grid-row-title centerText">
+            </div>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var stratskiCaller;
+        Util.ready(function () {
+            stratskiCaller = APIUtil.makeAPICaller(APIUtil.APICallerNames.skiCalculator);
+            var rModel = stratskiCaller.makeModel(stratskiCaller.modelSchemas.SkiStyles);
+            stratskiCaller.GETSkiStyles(rModel, (res) => populateSelect(res), (e) => { GUtil.displayPopup(Util.makeError(e)); });
+            function populateSelect(skiStyles) {
+                var stylesDDwn = document.querySelector("#inpStyle")
+                skiStyles.styles.forEach(style => {
+                    var option = document.createElement("option");
+                    option.text = style;
+                    stylesDDwn.add(option);
+                });
+            }
+        });
+        async function queryRecommendedSkis() {
+            var rModel = stratskiCaller.makeModel(stratskiCaller.modelSchemas.SkiRecommendation);
+            rModel.age = document.querySelector("#inpAge").value;
+            rModel.height = document.querySelector("#inpHeight").value;
+            rModel.style = document.querySelector("#inpStyle").value;
+            if(rModel.age == "" || rModel.height == ""){                
+                document.querySelector("#resultText").innerHTML = '<span style="color:red">Please fill in all fields!</span>'
+                return;
+            }
+            if(rModel.age <= 0 || rModel.height <= 0){                
+                document.querySelector("#resultText").innerHTML = '<span style="color:red">Only use numbers above 0 for Height and Age!</span>'
+                return;
+            }
+            GUtil.toggleDisplayStandBy({ id:"resultText"});
+            await stratskiCaller.GETSkiRecommendation(rModel, onSuccess, onFail);
+
+            //Success and Fail cases
+            function onSuccess(resModel) {
+                GUtil.toggleDisplayStandBy({ id: "resultText" });
+                if (resModel.noRecommendation) {
+                    document.querySelector("#resultText").textContent = resModel.noRecommendation;
+                    return;
+                }
+                var msg = "We recommend a ski length ";
+                if (resModel.exactLength)
+                    msg += "of " + resModel.exactLength + resModel.unit
+                else if (resModel.lengthFrom) {
+                    msg += 'between ' + resModel.lengthFrom + resModel.unit + " and ";
+                    msg += resModel.lengthTo + resModel.unit;
+                }
+                document.querySelector("#resultText").textContent = msg;
+            }
+            function onFail(e) {
+                GUtil.toggleDisplayStandBy({ id: "resultText" });
+                GUtil.displayPopup(Util.makeError(e));
+            }
+        }
+    </script>
+</body>
+</html>

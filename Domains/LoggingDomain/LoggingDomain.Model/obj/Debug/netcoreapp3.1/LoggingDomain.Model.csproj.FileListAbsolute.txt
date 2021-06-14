@@ -1,0 +1,17 @@
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\bin\Debug\netcoreapp3.1\LoggingDomain.Model.deps.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\bin\Debug\netcoreapp3.1\LoggingDomain.Model.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.AssemblyInfoInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.AssemblyInfo.cs
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\bin\Debug\netcoreapp3.1\LoggingDomain.Model.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.csproj.CoreCompileInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.csprojAssemblyReference.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\bin\Debug\netcoreapp3.1\LoggingDomain.Model.deps.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\bin\Debug\netcoreapp3.1\LoggingDomain.Model.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\bin\Debug\netcoreapp3.1\LoggingDomain.Model.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.AssemblyInfoInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.AssemblyInfo.cs
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Domains\LoggingDomain\LoggingDomain.Model\obj\Debug\netcoreapp3.1\LoggingDomain.Model.csproj.CoreCompileInputs.cache

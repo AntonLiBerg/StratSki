@@ -1,0 +1,12 @@
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\bin\Debug\netcoreapp3.1\DBUtilities.deps.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\bin\Debug\netcoreapp3.1\DBUtilities.runtimeconfig.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\bin\Debug\netcoreapp3.1\DBUtilities.runtimeconfig.dev.json
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\bin\Debug\netcoreapp3.1\DBUtilities.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\bin\Debug\netcoreapp3.1\DBUtilities.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.csprojAssemblyReference.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.AssemblyInfoInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.AssemblyInfo.cs
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.csproj.CoreCompileInputs.cache
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.dll
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.pdb
+C:\Users\a305511\Desktop\Projj\StratsysSkiWeb\Utilities\obj\Debug\netcoreapp3.1\DBUtilities.genruntimeconfig.cache

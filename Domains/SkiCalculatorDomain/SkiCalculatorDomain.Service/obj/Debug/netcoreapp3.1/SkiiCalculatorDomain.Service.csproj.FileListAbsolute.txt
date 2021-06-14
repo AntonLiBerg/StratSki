@@ -1,0 +1,9 @@
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\obj\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.AssemblyInfoInputs.cache
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\obj\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.AssemblyInfo.cs
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\obj\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.csproj.CoreCompileInputs.cache
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\bin\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.deps.json
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\bin\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.dll
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\bin\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.pdb
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\obj\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.dll
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\obj\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.pdb
+C:\Users\a305511\Desktop\Projj\Stratsys\StratsysSkiiWeb\SkiiCalculatorDomain.Service\obj\Debug\netcoreapp3.1\SkiiCalculatorDomain.Service.csprojAssemblyReference.cache
