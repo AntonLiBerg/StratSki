@@ -30,7 +30,7 @@ namespace SkiWeb.Tests.Controllers
         }
 
         [TestMethod]
-        public void GetSkiRecommendation_NoRecommendation_Exception()
+        public void GetSkiRecommendation_NoRecommendation_NoLengthRecommendationResponse()
         {
             //Arrange
             SkiCalculatorService.Setup(sc =>
@@ -77,7 +77,7 @@ namespace SkiWeb.Tests.Controllers
             Assert.AreEqual(LengthTo, nRes.LengthTo);
         }
         [TestMethod]
-        public void GetSkiStyles_ReturnStyles()
+        public void GetSkiStyles_SkiStylesResponse()
         {
             //Arrange
             SkiCalculatorService.Setup(s => s.GetSkiStyles())
