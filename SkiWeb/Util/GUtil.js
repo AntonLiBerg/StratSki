@@ -1,7 +1,8 @@
 const GUtil = {
     runningFuncs: {},
-    toggleDisplayStandBy: function (selectorParam) {
+    toggleDisplayStandBy: function (selectorParam,msg) {
         var selector;
+        msg ?? "Asking";
         if (selectorParam.id)
             selector = "#" + selectorParam.id;
         else if (selectorParam.class)
@@ -13,9 +14,9 @@ const GUtil = {
         } else {
             var animation = {
                 index:"1",
-                "1": ["Asking.", "2", ],
-                "2": ["Asking..", "3"],
-                "3": ["Asking...", "1"],
+                "1": [msg+".", "2", ],
+                "2": [msg+"..", "3"],
+                "3": [msg+"...", "1"],
                 nextFrame: function () {
                     var nAnimation = this[this.index];
                     this.index = nAnimation[1];
@@ -23,7 +24,7 @@ const GUtil = {
                 }
             }
             function animateWaiting() {
-                document.querySelector("#resultText").textContent = animation.nextFrame();
+                document.querySelector(selector).textContent = animation.nextFrame();
             }
             this.runningFuncs[selector] = setInterval(animateWaiting,1000);
         }

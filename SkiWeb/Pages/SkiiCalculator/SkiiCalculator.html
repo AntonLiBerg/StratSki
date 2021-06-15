@@ -47,9 +47,11 @@
     <script type="text/javascript">
         var stratskiCaller;
         Util.ready(function () {
+            GUtil.toggleDisplayStandBy({ id:"resultText"},"Loading Styles");
             stratskiCaller = APIUtil.makeAPICaller(APIUtil.APICallerNames.skiCalculator);
             var rModel = stratskiCaller.makeModel(stratskiCaller.modelSchemas.SkiStyles);
             stratskiCaller.GETSkiStyles(rModel, (res) => populateSelect(res), (e) => { GUtil.displayPopup(Util.makeError(e)); });
+            GUtil.toggleDisplayStandBy({ id:"resultText"},"Loading Styles");
             function populateSelect(skiStyles) {
                 var stylesDDwn = document.querySelector("#inpStyle")
                 skiStyles.styles.forEach(style => {
