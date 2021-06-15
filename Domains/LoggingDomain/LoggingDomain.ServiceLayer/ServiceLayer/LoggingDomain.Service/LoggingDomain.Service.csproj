@@ -5,10 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="DomainLayer\" />
-  </ItemGroup>
-
-  <ItemGroup>
     <ProjectReference Include="..\..\..\LoggingDomain.Infrastructure\LoggingDomain.Infrastructure.csproj" />
   </ItemGroup>
 

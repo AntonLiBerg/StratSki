@@ -1,12 +1,13 @@
 ﻿using LoggingDomain.Infrastructure.InfrastructureLayer;
 using LoggingDomain.Model.Entities;
 using LoggingDomain.Model.Enums;
+using LoggingDomain.Service.ServiceLayer;
 using System;
 using System.Collections.Generic;
 using System.Runtime.CompilerServices;
 using System.Text;
 
-namespace LoggingDomain.Service.ServiceLayer
+namespace LoggingDomain.Service.DomainLayer
 {
     public class LoggingService : ILoggingService
     {

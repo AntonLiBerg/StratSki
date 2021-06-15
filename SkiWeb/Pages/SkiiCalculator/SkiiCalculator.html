@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+﻿<!DOCTYPE html>
 <html>
 <head>
     <meta charset="utf-8" />
@@ -67,11 +67,11 @@
             rModel.height = document.querySelector("#inpHeight").value;
             rModel.style = document.querySelector("#inpStyle").value;
             if(rModel.age == "" || rModel.height == ""){                
-                document.querySelector("#resultText").innerHTML = '<span style="color:red">Please fill in all fields!</span>'
+                document.querySelector("#resultText").innerHTML = '<span style="color:red">' + 'Please fill in all fields!</span>'
                 return;
             }
             if(rModel.age <= 0 || rModel.height <= 0){                
-                document.querySelector("#resultText").innerHTML = '<span style="color:red">Only use numbers above 0 for Height and Age!</span>'
+                document.querySelector("#resultText").innerHTML = '<span style="color:red">' + 'Only use numbers above 0 for Height and Age!</span>'
                 return;
             }
             GUtil.toggleDisplayStandBy({ id:"resultText"});
