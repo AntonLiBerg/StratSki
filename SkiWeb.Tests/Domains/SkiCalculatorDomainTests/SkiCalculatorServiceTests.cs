@@ -70,6 +70,7 @@ namespace SkiWeb.Tests.Domains.SkiCalculatorDomainTests
                 Assert.Fail();
             }
         }
+        [TestMethod]
         public void GetSkiiLengthRecommendation_TestGotoNextSkiChainRule_NoException()
         {
             try
